@@ -1,19 +1,18 @@
-
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs,  doc, getDoc, query, where, addDoc } from "firebase/firestore"
+import {getFirestore, collection, getDocs,  doc, getDoc, query, where, addDoc} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCdK8Q6XjE45mg2IoVLg1BJhN7o5SdgTVY",
-  authDomain: "react-proyect-df178.firebaseapp.com",
-  projectId: "react-proyect-df178",
-  storageBucket: "react-proyect-df178.appspot.com",
-  messagingSenderId: "615558337308",
-  appId: "1:615558337308:web:21274ae42be5f54916e0d9"
+  apiKey: "AIzaSyBZx8yDDXVt7YX2kmkoHcOX5QwXp5CFGcw",
+  authDomain: "proyecto-react-36e8b.firebaseapp.com",
+  projectId: "proyecto-react-36e8b",
+  storageBucket: "proyecto-react-36e8b.appspot.com",
+  messagingSenderId: "813523285828",
+  appId: "1:813523285828:web:64f26bd0fc046dec528911"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const firestore = getFirestore(app)
+const firestore = getFirestore(app);
 
 export async function getItems () {
   const miColleccion = collection (firestore, 'Calzados' )
