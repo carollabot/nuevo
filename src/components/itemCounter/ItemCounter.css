@@ -1,0 +1,31 @@
+.itemCount{
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.itemSubstract{
+    background-color: #c92d2d;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.itemAdd{
+    background-color: #2d8539;
+    font-weight: bolder;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.itemCount span{
+    color: black;
+}

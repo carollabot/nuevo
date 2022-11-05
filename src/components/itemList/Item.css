@@ -1,0 +1,67 @@
+.Item-img{
+    margin: 5px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .Item-img img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .Item{
+    display: inline-block;
+    margin: 10px 15px;
+    min-height: 500px;
+    width: 310px;
+    height: 100%;
+    border-radius: 4px;
+    border: black solid 2px;
+    box-shadow: 0px 0px 4px black;
+    background-color: #EEEE;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+    background-color: #2774d1;
+  }
+  
+  .Item:hover{
+    transform: translateY(-6px);
+  }
+  
+  .Item-detail{
+    padding: 12px 8px;
+  }
+  
+  small{
+    color: #8c8c8e;
+  }
+  h1{
+    color: black;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .Item h3{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .Item h4{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .Item p{
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .Spinner{
+    display: block;
+        margin: 0 auto;
+        border-color: #1A4D2E;
+  }

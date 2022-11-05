@@ -1,0 +1,102 @@
+.CartView{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 15% 5%;
+    color: black;
+    border-bottom: black solid 1px;
+}
+
+.CartViewImg{
+width: 130px;
+height: 100px;
+margin-left: 15%;
+}
+.CartViewTitle{
+    font-size: x-large;
+    font-weight: 550;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.CartViewPrice{
+    font-size: large;
+    font-weight: 250;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.CartViewCount{
+    font-size: large;
+    font-weight: 250;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.CartViewSuma{
+    font-size: large;
+    font-weight: 250;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.CartViewTotal{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    display: flex ;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.CartView1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 15% 5%;
+    color: black;
+    border-bottom: 1px black solid;
+}
+
+.CartViewDelete{
+    width: 28px;
+    height: 28px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.74);
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.CartViewDeleteAll{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    color: #EEEE;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CartViewDeleteAll:hover {
+    background-color: #d15727;
+    color: black;
+    transition: 0.5s;
+}
+
+.CarritoVacio{
+    color: #EEEE;
+    background-color: black;
+    font-size: x-large;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.CarritoVacio:hover {
+    background-color: #d15727;
+    color: black;
+    transition: 0.4s;
+}
